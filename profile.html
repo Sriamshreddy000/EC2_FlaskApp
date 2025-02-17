@@ -1,0 +1,66 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>User Profile</title>\
+    <style>\
+        body \{\
+            font-family: 'Arial', sans-serif;\
+            background: url('https://images5.alphacoders.com/135/thumb-1920-1356162.jpeg') no-repeat center center fixed;\
+            background-size: cover;\
+            color: #fff;\
+            text-align: center;\
+        \}\
+        .profile-container \{\
+            background: rgba(0, 0, 0, 0.85);\
+            padding: 30px;\
+            border-radius: 10px;\
+            width: 400px;\
+            margin: 5% auto;\
+            box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.7);\
+        \}\
+        .profile-container h1 \{\
+            color: #00ffff;\
+            text-shadow: 0px 0px 10px #00ffff;\
+        \}\
+        .profile-container p \{\
+            font-size: 18px;\
+            line-height: 1.6;\
+        \}\
+        .profile-container p strong \{\
+            color: cyan;\
+        \}\
+        .btn \{\
+            background: cyan;\
+            color: black;\
+            padding: 10px;\
+            border: none;\
+            border-radius: 5px;\
+            cursor: pointer;\
+            font-size: 16px;\
+            font-weight: bold;\
+            margin-top: 20px;\
+        \}\
+        .btn:hover \{\
+            background: #00ffff;\
+        \}\
+    </style>\
+</head>\
+<body>\
+    <div class="profile-container">\
+        <h1>Welcome, \{\{ user[4] \}\} \{\{ user[5] \}\}!</h1>\
+        <p><strong>First Name:</strong> \{\{ user[4] \}\}</p>\
+        <p><strong>Last Name:</strong> \{\{ user[5] \}\}</p>\
+        <p><strong>Email:</strong> \{\{ user[3] \}\}</p>\
+        <button class="btn" onclick="window.location.href='/'">Go back to Homepage</button>\
+    </div>\
+</body>\
+</html>}
